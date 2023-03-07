@@ -53,3 +53,24 @@ case 'June':
 break
 
 }
+let day = prompt('What is the day  today?','')
+switch(day)
+{
+  
+  case 'Saturday':
+  
+  case 'Sunday':
+  
+  
+  console.log(`${day} is a weekend`)
+break
+case 'Monday':
+case 'Friday':
+  case 'Thusday':
+  case 'Thersday':
+  case 'Wendsday':
+  console.log(`${day} is a working day`)
+break 
+
+
+}
