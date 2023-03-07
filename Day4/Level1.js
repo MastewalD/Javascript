@@ -29,3 +29,11 @@ if(a<b){
 let diff = a>b
 
  diff ? console.log(`${a} is greater than ${b}`) : console.log(`${a} is less than ${b}`)
+ let number =prompt('Enter the number',2)
+ let remainder = number%2
+ if(remainder == 0 )
+ {
+   console.log(`${number} is even number`)
+ }else{
+   console.log(`${number} is odd number`)
+ }
