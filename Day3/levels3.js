@@ -1,0 +1,8 @@
+let date = new Date()
+let year=date.getFullYear()
+let month=date.getMonth()
+let day=date.getDay()
+let hour=date.getHours()
+let minut=date.getMinutes()
+console.log(date)
+console.log(`${year}/${month}/${day}   ${hour}:${minut}`)
