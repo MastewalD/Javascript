@@ -6,3 +6,10 @@ let sentence3='\'You cannot end a sentence with because because because is a con
 console.log(sentence3.match('because'))
 let pattern = /because/g
 console.log(sentence3.match(pattern).length)
+
+
+let salary =5000* 12
+let online_course = 15000 *12
+let bonus = 10000
+ let anual_income = salary + online_course +bonus
+ console.log(anual_income)
