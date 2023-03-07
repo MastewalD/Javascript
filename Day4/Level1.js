@@ -17,12 +17,15 @@ if(myAge == yourAge){
 }else{
   console.log(`You are ${Math.abs(difference)} years older than me` )
 }
-let a = 4
+let a = 2
 let b = 3
 if(a<b){
-  console.log('a is less than b')
+  console.log(`${a} is less than ${b}`)
 }else if(a>b){
-  console.log('a is greater than b')
+  console.log(`${a} is greater than ${b}`)
 }else {
-  console.log('a is equal with b')
+  console.log(`${a} is equal to ${b}`)
 }
+let diff = a>b
+
+ diff ? console.log(`${a} is greater than ${b}`) : console.log(`${a} is less than ${b}`)
