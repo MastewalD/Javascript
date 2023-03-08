@@ -32,3 +32,19 @@ if(check){
 }else{
   countries.push("Ethiopia")
 }
+const webTechs = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'Redux',
+  'Node',
+  'MongoDB'
+]
+let check =webTechs.toString().includes("Sass")
+if(check){
+  console.log("Sass is a CSS preprocess")
+}else{
+  webTechs.push("Sass")
+  console.log(webTechs)
+}
