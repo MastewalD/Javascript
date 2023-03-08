@@ -31,3 +31,24 @@ if(chack){
 }else{
   console.log("company is not found")
 }
+const array=[1,3,5,7,9,8,6]
+array.sort()
+console.log(array)
+array.reverse()
+console.log(array)
+const itCompanies = ["Facebook","Google","Microsoft","Apple","IBM","Oracle","Amazon"]
+let lastIndex=itCompanies.length -1 
+console.log(itCompanies.length)
+let first =itCompanies[0]
+let middle=itCompanies.slice(1,lastIndex)
+let last=itCompanies[lastIndex]
+console.log(itCompanies.slice(0-3 ))
+
+
+console.log(itCompanies.slice(3-7))
+console.log(itCompanies.slice(1-6))
+itCompanies.shift()
+console.log(itCompanies)
+itCompanies.pop()
+console.log(itCompanies)
+console.log(itCompanies.splice(" "))
