@@ -1,53 +1,33 @@
-const arry=[]
-const array= Array()
-console.log(arry)
+const array = Array()
+const array1 = []
 console.log(array)
-
-
-const array = Array(6)
-console.log(array)
-
-const arry1= Array(9)
-console.log(arry1.length)
-
-const array1 =[1,2,3,4,5,6,7,8]
-const firstItem = array1[0]
-const middleItem =array1[4]
-const lastItem =array1[7]
-console.log(firstItem,middleItem,lastItem)
-
-
-const mixedDataTypes =[1,2,3,"maste",null,true]
+console.log(array1)
+const array2 = [1,2,3,4,5,6]
+console.log(array2)
+console.log(array2.length)
+console.log(array2[0])
+const mixedDataTypes =[1,2,3,true,"yaa",null]
 console.log(mixedDataTypes.length)
-const itCompanies=["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle",  "Amazon" ]
+const itCompanies = ["Facebook","Google","Microsoft","Apple","IBM","Oracle","Amazon"]
 console.log(itCompanies)
+let lastIndex=itCompanies.length -1 
 console.log(itCompanies.length)
-const firstItem = itCompanies[0]
-const middleItem =itCompanies[4]
-const lastItem =itCompanies[6]
-console.log(firstItem,middleItem,lastItem)
+let first =itCompanies[0]
+let middle=itCompanies.slice(1,lastIndex)
+let last=itCompanies[lastIndex]
+console.log(first)
+console.log(middle)
+console.log(last)
 
-
-const Uppercase=String(itCompanies).toUpperCase().split(" ")
-console.log(Uppercase)
-console.log(String(itCompanies))
+console.log(itCompanies)
+let Upercase =itCompanies.toString().toUpperCase()
+console.log(Upercase.split(","))
 console.log(itCompanies.toString())
-console.log(itCompanies.join(" "))
-console.log(itCompanies[2])
-console.log(itCompanies[8])
 
-itCompanies.sort()
-console.log(itCompanies)
-itCompanies.reverse()
-console.log(itCompanies)
-console.log(itCompanies.slice(0,3))
-let lastIndex = itCompanies.length 
-console.log(itCompanies.slice(4,lastIndex))
-console.log(itCompanies[3])
-itCompanies.shift()
-console.log(itCompanies)
-itCompanies.shift("")
-console.log(itCompanies)
-itCompanies.pop()
-console.log(itCompanies)
-console.log(itCompanies.splice())
+let companyName=prompt("Enter the company name","")
+let chack =itCompanies.toString().includes(companyName)
+if(chack){
+  console.log(companyName)
+}else{
+  console.log("company is not found")
+}
