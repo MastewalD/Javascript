@@ -34,6 +34,7 @@ if(chack){
 const array=[1,3,5,7,9,8,6]
 array.sort()
 console.log(array)
+
 array.reverse()
 console.log(array)
 const itCompanies = ["Facebook","Google","Microsoft","Apple","IBM","Oracle","Amazon"]
