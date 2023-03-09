@@ -36,8 +36,9 @@ let sum=0
 for(let i=0;i<=100;i++){
  sum +=i
  
- console.log(`The sum of all numbers from 0 to 100 is ${sum}`) 
+ 
 }
+console.log(`The sum of all numbers from 0 to 100 is ${sum}`) 
 let sum=0
 let even=0
 let odd=0
@@ -49,5 +50,6 @@ if(i%2 ==0)
     odd=odd+i
 }
  
- console.log(`The sum of all evens for o to 100 is${even}. And the sum of all odds from o to 100 is ${odd}.`) 
+ 
 }
+console.log(`The sum of all evens for o to 100 is${even}. And the sum of all odds from o to 100 is ${odd}.`) 
