@@ -1,55 +1,67 @@
+console.log(countries)
+console.log(webTechs)
 let text =
 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
-
-console.log(text.split(" "))
-console.log(text.split(" ").length)
+let array=text.split(" ")
+console.log(array.length)
 const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
-shoppingCart.unshift('Meat' )
-shoppingCart.push("Sugar ")
+shoppingCart.unshift("Meat")
+shoppingCart.push("Sugar")
+
+shoppingCart.splice(4,1)
+
+shoppingCart.splice(3,1,"Geen Tea")
 console.log(shoppingCart)
 
-console.log(shoppingCart.splice(4,1))
-console.log(shoppingCart)
-console.log(shoppingCart.splice(3,1,"Green tea"))
-console.log(shoppingCart)
+if(countries.includes("Ethiopia")){
+    console.log("ETHIOPIA")
+}else{
+    console.log(
+        countries.push("Ethiopia")
+    )
+}
 
-const countries = [
-  'Albania',
-  'Bolivia',
-  'Canada',
-  'Denmark',
-  'Ethiopia',
-  'Finland',
-  'Germany',
-  'Hungary',
-  'Ireland',
-  'Japan',
-  'Kenya'
-]
-let check =countries.toString().includes("Ethiopia")
-if(check){
-  console.log("ETHIOPIA")
+if(webTechs.includes("Sass")){
+    console.log("Sass is a CSS preprocess")
 }else{
-  countries.push("Ethiopia")
+    webTechs.push("Sass")
 }
-const webTechs = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'Redux',
-  'Node',
-  'MongoDB'
-]
-let check =webTechs.toString().includes("Sass")
-if(check){
-  console.log("Sass is a CSS preprocess")
-}else{
-  webTechs.push("Sass")
-  console.log(webTechs)
-}
+
 const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 const backEnd = ['Node','Express', 'MongoDB']
 
-let fullStack = frontEnd.concat(backEnd)
+let fullStack=frontEnd.concat(backEnd)
 console.log(fullStack)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
