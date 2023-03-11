@@ -104,3 +104,17 @@ function perimeter(length,width){
           return bmi
        }
        console.log(BMI(30,1.52))
+       function findMax (num1,num2,num3){
+         switch(true){
+             case (num1 >num2 && num1>num3):
+             console.log(num1)
+             break
+             case (num2>num1 && num2>num3):
+             console.log(num2)
+             break
+             case (num3>num1 && num3>num2):
+                 console.log(num3)
+                 break
+         }
+     }
+     findMax(9,2,3)
