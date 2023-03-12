@@ -79,3 +79,19 @@ for(let i =numStart;i<=numEnd;i++){
 }  console.log(sum)
 }
 sumOfOdds(1,5)
+
+
+const even = [];
+const odd = [];
+function evensAndOdds(num) {
+  for (let i = 0; i <= 100; i++) {
+    if (i % 2 == 0) {
+      even.push(i);
+    } else {
+      odd.push(i);
+    }
+  }
+  console.log(`The number of even are ${even.length} \n
+  The number of odds are ${odd.length}`);
+}
+evensAndOdds();
