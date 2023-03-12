@@ -59,3 +59,23 @@ function sumOfNumbers(numStart, numEnd) {
   }
 }
 sumOfNumbers(1, 4);
+let sum =0
+function sumOfOdds (numStart,numEnd){
+for(let i =numStart;i<=numEnd;i++){
+  if(i%2 !==0){
+    sum +=i
+  
+  }
+}  console.log(sum)
+}
+sumOfOdds(1,5)
+let sum =0
+function sumOfOdds (numStart,numEnd){
+for(let i =numStart;i<=numEnd;i++){
+  if(i%2 ==0){
+    sum +=i
+  
+  }
+}  console.log(sum)
+}
+sumOfOdds(1,5)
