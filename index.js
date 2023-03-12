@@ -8,7 +8,7 @@ appDiv.innerHTML = `<h1>one</h1>`;
 
 
 function reversArray (array){
-for(let i=array.length;i>=0;i++){
+for(let i=array.length;i>=0;i--){
 
 const arr=[]
 arr.push(i)
